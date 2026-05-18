@@ -1,0 +1,11 @@
+[workspace]
+members = [
+    "policy-registry",
+    "eligibility-engine", 
+    "access-token",
+]
+resolver = "2"
+
+[workspace.dependencies]
+soroban-sdk = { version = "20.0.0" }
+soroban-env-common = "20.0.0"
